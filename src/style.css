@@ -34,7 +34,7 @@ a {
 
 header {
   border-bottom: 1px solid #f9f7fe;
-  padding: 30px 30px;
+  padding: 0 0 30px 0;
 }
 
 .main-text {
