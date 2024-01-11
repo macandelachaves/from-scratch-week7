@@ -1,14 +1,14 @@
 body {
-  background: #f9f7fe;
-  font-family: "Roboto", sans-serif;
+  background: #e2f6f5;
+  font-family: "Roboto Condensed", sans-serif;
 }
 a {
   color: #885df1;
 }
 .weather-app {
   background-color: white;
-  margin: 45px auto;
-  padding: 20px;
+  margin: 50px auto;
+  padding: 60px;
   max-width: 600px;
   border-radius: 16px;
 }
@@ -45,14 +45,13 @@ header {
 
 .main-city {
   margin: 0;
-  font-size: 25px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 .day-information {
   color: #a8a6b4;
   font-size: 15px;
-  font-weight: 450;
 }
 
 .day-information strong {
@@ -64,19 +63,18 @@ header {
 }
 
 .main-emoji {
-  font-size: 70px;
-  margin-top: 30px;
+  width: 90px;
+  height: 90px;
 }
 
 .main-temperature {
   font-size: 88px;
   font-weight: 600;
-  margin-top: 15px;
-  margin-left: 10px;
+  line-height: 95px;
 }
 
 .main-unit {
-  margin-top: 22px;
+  margin-top: 10px;
   font-size: 25px;
   margin-right: 10px;
 }
