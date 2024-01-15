@@ -38,9 +38,9 @@ header {
 }
 
 .main-text {
+  padding: 15px;
   display: flex;
   justify-content: space-between;
-  padding: 15px;
 }
 
 .main-city {
@@ -58,7 +58,7 @@ header {
   color: #f65281;
 }
 
-.today-weather {
+.today-weather-container {
   display: flex;
 }
 
