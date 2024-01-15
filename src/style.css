@@ -79,6 +79,10 @@ header {
   margin-right: 10px;
 }
 
+input {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 footer {
   border-top: 1px solid #f9f7fe;
   color: #a8a6b4;
