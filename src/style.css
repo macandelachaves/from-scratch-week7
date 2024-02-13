@@ -39,14 +39,14 @@ header {
 
 .main-text {
   padding: 15px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .main-city {
   margin: 0;
   font-size: 20px;
   line-height: 25px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .day-information {
@@ -77,6 +77,30 @@ header {
   margin-top: 10px;
   font-size: 25px;
   margin-right: 10px;
+}
+.forecast-weather-week {
+  display: flex;
+  text-align: center;
+}
+
+.forecast-weather-date {
+  text-align: center;
+  color: #a8a6b4;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.forecast-weather-emoji {
+  text-align: center;
+  font-size: 30px;
+}
+
+.forecast-weather-temperatures {
+  text-align: center;
+  color: #a8a6b4;
+  font-size: 12px;
 }
 
 input {
