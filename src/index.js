@@ -55,4 +55,26 @@ function handleSearchSubmit(event) {
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
+function displayForecast() {
+  let days = ["Mon", "Tue", "Wed", "Thurs", "Fri"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+              <div class="forecast-weather-date">${day}</div>
+              <div class="forecast-weather-emoji">🌩</div>
+              <div class="forecast-weather-temperatures">
+                <span> 15°</span>
+                <span> 20°</span>
+            </div>
+`;
+
+    let forecastElement = document.querySelector("#forecast");
+    forecastElement.innerHTML = forecastHtml;
+  });
+}
+
 searchCity("Buenos Aires");
+displayForecast();
