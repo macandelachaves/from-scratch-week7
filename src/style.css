@@ -82,6 +82,10 @@ header {
   display: flex;
   text-align: center;
 }
+.forecast-day {
+  display: block;
+  margin-right: 10px;
+}
 
 .forecast-weather-date {
   text-align: center;

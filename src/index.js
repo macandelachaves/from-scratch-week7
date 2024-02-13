@@ -63,17 +63,19 @@ function displayForecast() {
     forecastHtml =
       forecastHtml +
       `
-              <div class="forecast-weather-date">${day}</div>
+      <div class ="forecast-day">        
+      <div class="forecast-weather-date">${day}</div>
               <div class="forecast-weather-emoji">🌩</div>
               <div class="forecast-weather-temperatures">
                 <span> 15°</span>
                 <span> 20°</span>
             </div>
+            </div>
 `;
-
-    let forecastElement = document.querySelector("#forecast");
-    forecastElement.innerHTML = forecastHtml;
   });
+
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = forecastHtml;
 }
 
 searchCity("Buenos Aires");
